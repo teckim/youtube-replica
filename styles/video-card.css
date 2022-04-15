@@ -1,0 +1,39 @@
+.video-card {
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.video-card .video-card__title {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 2.6rem;
+}
+
+.video-card .video-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.video-card .video-card__actions {
+  display: flex;
+  align-items: center;
+}
+
+.video-card .video-card__info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #606060;
+}
+
+.video-card .video-card__info-separator {
+  margin: 0 4px;
+}
+
+.video-card .video-card__description {
+  margin-left: 64px;
+  font-size: 14px;
+  color: #030303;
+}

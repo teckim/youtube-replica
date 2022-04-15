@@ -1,0 +1,15 @@
+.layout {
+  display: flex;
+  padding: 24px;
+}
+
+.layout > *:not(:last-child) {
+  margin-right: 24px;
+}
+
+.layout .layout__left-side {
+}
+
+.layout .layout__right-side {
+  width: 100%;
+}

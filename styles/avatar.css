@@ -1,0 +1,12 @@
+.avatar {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #eaeaea;
+}
+
+.avatar.avatar--size-lg {
+  height: 48px;
+  width: 48px;
+}

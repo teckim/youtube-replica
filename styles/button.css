@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  color: #fff;
+  outline: none;
+  background: none;
+  margin: 0;
+  border: none;
+  border-radius: 2px;
+  padding: 0 16px;
+  height: 36px;
+  line-height: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--main-color);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button > *:not(:last-child) {
+  margin-right: 6px
+}
+
+.button.button--text{
+  background: transparent;
+  padding: 0 6px;
+  color: #030303;
+}

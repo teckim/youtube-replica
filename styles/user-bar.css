@@ -1,0 +1,25 @@
+.user-bar {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  margin-bottom: 12px;
+}
+
+.user-bar .user-bar__avatar {
+  margin-right: 16px;
+}
+
+.user-bar .user-bar__info {
+  width: 100%; 
+}
+
+.user-bar .user-bar__name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #030303;
+}
+
+.user-bar .user-bar__subs {
+  font-size: 12px;
+  color: #606060;
+}
